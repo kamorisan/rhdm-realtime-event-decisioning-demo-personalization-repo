@@ -7,6 +7,16 @@
 
   <servers>
     <!-- ### configured servers ### -->
+    <server>
+      <username>admin</username>
+      <password>admin123</password>
+      <id>nexus-releases</id>
+    </server>
+    <server>
+      <username>admin</username>
+      <password>admin123</password>
+      <id>nexus-snapshots</id>
+    </server>
   </servers>
 
   <mirrors>

@@ -7,7 +7,6 @@ if [ "${SCRIPT_DEBUG}" = "true" ] ; then
 fi
 
 # ddoyle
-echo "Original script path is: $S2I_SCRIPTS_PATH"
 S2I_SCRIPTS_PATH=/usr/local/s2i
 
 SCRIPT_DIR="$(dirname $0)"
