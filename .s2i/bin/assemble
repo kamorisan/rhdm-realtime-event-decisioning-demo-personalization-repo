@@ -8,10 +8,13 @@ fi
 
 # ddoyle
 echo "Original script path is: $S2I_SCRIPTS_PATH"
+S2I_SCRIPTS_PATH=/usr/local/s2i
 
 SCRIPT_DIR="$(dirname $0)"
-source "${SCRIPT_DIR}/s2i-setup"
-source "${SCRIPT_DIR}/common.sh"
+#source "${SCRIPT_DIR}/s2i-setup"
+#source "${SCRIPT_DIR}/common.sh"
+source "${S2I_SCRIPTS_PATH}/s2i-setup
+source "${S2I_SCRIPTS_PATH}/common.sh
 
 # Maven arguments setting up the environment
 MAVEN_REPO_LOCAL="${S2I_ARTIFACTS_DIR}/m2"
