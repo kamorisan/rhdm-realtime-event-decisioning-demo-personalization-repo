@@ -1,10 +1,13 @@
 #!/bin/sh
-# Global S2I variable setup
+# Global S2I variable i
 
 if [ "${SCRIPT_DEBUG}" = "true" ] ; then
     set -x
     echo "Script debugging is enabled, allowing bash commands and their arguments to be printed as they are executed"
 fi
+
+# ddoyle
+echo "Original script path is: $S2I_SCRIPTS_PATH"
 
 SCRIPT_DIR="$(dirname $0)"
 source "${SCRIPT_DIR}/s2i-setup"
