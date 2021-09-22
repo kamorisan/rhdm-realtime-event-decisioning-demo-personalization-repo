@@ -73,7 +73,8 @@
         <repository>
           <id>nexus-releases</id>
           <name>Nexus Releases</name>
-          <url>${env.NEXUSREPO}/repository/maven-releases/</url>
+          <!-- <url>${env.NEXUSREPO}/repository/maven-releases/</url> -->
+          <url>http://nexus-dm7-red-2b69.apps.na311.openshift.opentlc.com/repository/maven-releases/</url>
           <layout>default</layout>
         </repository>
         <snapshotRepository>
